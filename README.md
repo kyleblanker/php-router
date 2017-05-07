@@ -75,15 +75,15 @@ The regular expressions key is defined from what's infront of the  ```:```
 ```PHP
 $router = new \KyleBlanker\Router();
 
-$router->get('/get-route',function($id){
+$router->get('/get-route',function(){
     echo 'This is my get route';
 });
 
-$router->post('/post-route',function($id){
+$router->post('/post-route',function(){
     echo 'This is my post route';
 });
 
-$router->any('/any-route',function($id){
+$router->any('/any-route',function(){
     echo 'This is my any route';
 });
 ```
