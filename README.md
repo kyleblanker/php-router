@@ -1,3 +1,5 @@
+This is me just messing around, I probably wouldn't use this in a project
+
 # PHP Router
 A simple PHP router.
 
